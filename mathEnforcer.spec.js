@@ -340,5 +340,28 @@ describe('mathEnforcer', () => {
             expect(stringResult).to.be.undefined
 
         })
+
+        /*
+        it('should return undefined when second parameter is non-number', () => {
+            //Arrange
+            const nullInputSecondParam = null
+            const undefinedInputSecondParam = undefined
+            const arrayInputSecondParam = []
+            const stringInputSecondParam = 'Levski Sofia 1914'
+
+            //Act
+            const nullResult = mathEnforcer.sum(6, nullInputSecondParam)
+            const undefinedResult = mathEnforcer.sum(6, undefinedInputSecondParam)
+            const arrayResult = mathEnforcer.sum(6, arrayInputSecondParam)
+            const stringResult = mathEnforcer.sum(6, stringInputSecondParam)
+
+            //Assert
+            expect(nullResult).to.be.undefined
+            expect(undefinedResult).to.be.undefined
+            expect(arrayResult).to.be.undefined
+            expect(stringResult).to.be.undefined
+
+        })
+        */
     })
 })
